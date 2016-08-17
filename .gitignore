@@ -55,6 +55,10 @@ a.out
 !.gitignore
 !.gitattributes
 !.github/
+<<<<<<< .merge_file_YR4ELQ
+=======
+!.travis.yml
+>>>>>>> .merge_file_tRSTAw
 
 # stgit generated dirs
 patches-*

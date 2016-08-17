@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_VjBqSA
 <<<<<<< .merge_file_GWMaCG
 ![doodles](https://www.google.com/logos/doodles/2016/st-georges-day-2016-6574194768740352-hp2x.jpg)
 =======
@@ -5,15 +6,32 @@
 
 [English version](https://github.com/racaljk/hosts/wiki/README(en))
 >>>>>>> .merge_file_5WtGld
+=======
+[![doodle]][doodle-story]
 
-**使用本项目之前，请先阅读此 README 及下方的许可协议**
+[doodle]: http://p2.cri.cn/M00/65/09/CqgNOleXGt-AcXnFAAAAAAAAAAA942.980x250.jpg "undefined"
+[doodle-story]: http://2016.cctv.com/
+>>>>>>> .merge_file_qpbueI
 
-**目前通过修改 hosts 无法观看 YouTube 视频 详情: [Issue #297](https://github.com/racaljk/hosts/issues/297)**
+**使用本项目之前，请先阅读此 [README](README.md) 及下方的许可协议**
 
-**使用镜像地址获取** [**hosts**](https://coding.net/u/scaffrey/p/hosts/git/raw/master/hosts)
+**请务必注意,如果正确修改hosts后还是无法使用Google,在求助前请首先尝试通过https进行访问，如[https://www.google.com/](https://www.google.com/)**
 
-**进入聊天室:** [![Join the chat at https://gitter.im/racaljk/hosts](https://badges.gitter.im/racaljk/hosts.svg)](https://gitter.im/racaljk/hosts?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+|       [聊天室][chat-room]       |    [hosts 格式检测][travis-status]    |  [镜像hosts][mirror_of_hosts]  |  [常见问题解答][faq]  |
+| :----------------------------: | :-----------------------------------: |  :---------------------------: |  :-----------------: |
+|  [![chat-metadata]][chat-room] |  [![travis-metadata]][travis-status]  |   [![coding.net]][coding-link]  |  [![faq_icon]][faq] | 
 
+[chat-metadata]: https://badges.gitter.im/racaljk/hosts.svg "Join the chat at https://gitter.im/racaljk/hosts"
+[chat-room]: https://gitter.im/racaljk/hosts?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge "Gitter chat room"
+[travis-metadata]: https://travis-ci.org/racaljk/hosts.svg "Travis CI Metadata"
+[travis-status]: https://travis-ci.org/racaljk/hosts "Travis CI Status"
+[coding.net]: https://i.imgur.com/JDpN8Bd.png
+[coding-link]: https://coding.net/u/scaffrey/p/hosts/git "Coding"
+[mirror_of_hosts]: https://coding.net/u/scaffrey/p/hosts/git/raw/master/hosts
+[faq_icon]: http://www.easyicon.net/api/resizeApi.php?id=1190784&size=64
+[faq]: https://github.com/racaljk/hosts/wiki/%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E8%A7%A3%E7%AD%94
+
+<<<<<<< .merge_file_VjBqSA
 <<<<<<< .merge_file_GWMaCG
 
 ## 更新 hosts
@@ -23,12 +41,17 @@
 * 下面介绍的操作均可能覆盖现有 hosts ，进行操作前请先确认是否需要备份。
 * 推荐使用本项目的 [**Host Tools**](https://github.com/racaljk/hosts/tree/master/tools) 来自动化 备份/配置 工作。
 >>>>>>> .merge_file_5WtGld
+=======
+## 如何更新 hosts？
+**推荐**使用项目内 [Host Tools](tools) 来**自动地 备份/更新** hosts。
+>>>>>>> .merge_file_qpbueI
 
-* 若更新 hosts 未立即生效，请重置网络：
-  - 在系统设置内开关网络
-  - 启用禁用飞行模式
-  - 重启系统
+* **Windows** 平台:
+   1. 用文本编辑器（如 [Notepad++](https://notepad-plus-plus.org/)）打开：`
+  %SystemRoot%\System32\drivers\etc\hosts`
+  > ![](https://i.imgur.com/BwW2cft.jpg)
 
+<<<<<<< .merge_file_VjBqSA
 ### Windows
 <<<<<<< .merge_file_GWMaCG
 用文本编辑器（如记事本等）打开文件：
@@ -38,9 +61,15 @@
 将 [hosts](https://raw.githubusercontent.com/racaljk/hosts/master/hosts) 全文复制到上述文件内并保存
 =======
 用文本编辑器（如 [Notepad++](https://notepad-plus-plus.org/)）打开文件：
+=======
+   2. 将 [hosts][github-hosts] 全部内容复制到上面的文件内并保存。
+   > 注意：如果遇到无法保存，请右键文件hosts并找到“属性” -> “安全”，然后选择你登陆的用户名，最后点击编辑，勾选“写入”即可。
+>>>>>>> .merge_file_qpbueI
 
-    C:\Windows\System32\drivers\etc\hosts
+* **其他平台**请将 [hosts][github-hosts] 全部内容复制到`/etc/hosts`中并保存。
+> 附：[各平台 hosts 位置](http://www.wikiwand.com/zh/Hosts%E6%96%87%E4%BB%B6#/.E6.96.87.E4.BB.B6.E4.BD.8D.E7.BD.AE.E5.8F.8A.E9.BB.98.E8.AE.A4.E5.86.85.E5.AE.B9)
 
+<<<<<<< .merge_file_VjBqSA
 将 [hosts](https://raw.githubusercontent.com/racaljk/hosts/master/hosts) 全部内容复制到上述文件内并保存
 >>>>>>> .merge_file_5WtGld
 
@@ -77,10 +106,18 @@
 ### iOS
 将 [hosts](https://raw.githubusercontent.com/racaljk/hosts/master/hosts) 全部内容复制到 `/etc/hosts`中并保存。
 >>>>>>> .merge_file_5WtGld
+=======
+**注意**： 若更新后，hosts 没有立即生效，请重置网络：
+>>>>>>> .merge_file_qpbueI
 
+   - 在系统设置内开关网络
+   - 启用禁用飞行模式
+   - 重启系统
 
 ## 更多
-**获取更多信息，请访问 [Wiki 页面](https://github.com/racaljk/hosts/wiki) 。如有问题，请开 [Issue](https://github.com/racaljk/hosts/issues) 反馈。**
+- [关于中国的互联网](https://github.com/racaljk/hosts/wiki/关于中国的互联网)
+- 获取更多信息，请访问 [Wiki 页面](https://github.com/racaljk/hosts/wiki) 。如有问题，请开 [Issue](https://github.com/racaljk/hosts/issues) 反馈。
+
 
 <<<<<<< .merge_file_GWMaCG
 
@@ -94,7 +131,7 @@
 - **使用/下载本项目中的产品(包括但不限于其衍生产品)则意味着您已经阅读了本协议并愿意遵守本协议规定的有关事项；若你无法遵守上述的责任和义务，请不要拷贝、并再发行本项目；如果您违反本协议使用/下载项目中的产品(包括但不限于其衍生产品)，我们将最大限度地追究您的违约责任。**
 =======
 ## License
-- 本项目的所有代码除另有说明外,均按照 [MIT License](https://github.com/racaljk/hosts/blob/master/LICENSE) 发布。
+- 本项目的所有代码除另有说明外,均按照 [MIT License](LICENSE) 发布。
 - 本项目的hosts，README.MD，wiki等资源基于[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 这意味着你可以拷贝、并再发行本项目的内容，但是你将必须同样**提供原作者信息以及协议声明**。同时你也**不能将本项目用于商业用途**，
 按照我们狭义的理解（增加附属条款），凡是**任何盈利的活动皆属于商业用途**。
@@ -102,3 +139,5 @@
 >>>>>>> .merge_file_5WtGld
 
 ![img-source-from-https://github.com/docker/dockercraft](https://github.com/docker/dockercraft/raw/master/docs/img/contribute.png?raw=true)
+
+[github-hosts]: https://raw.githubusercontent.com/racaljk/hosts/master/hosts "hosts on Github"
