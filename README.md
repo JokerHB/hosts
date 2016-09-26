@@ -9,9 +9,14 @@
 =======
 [![doodle]][doodle-story]
 
+<<<<<<< HEAD
 [doodle]: http://p2.cri.cn/M00/65/09/CqgNOleXGt-AcXnFAAAAAAAAAAA942.980x250.jpg "undefined"
 [doodle-story]: http://2016.cctv.com/
 >>>>>>> .merge_file_qpbueI
+=======
+[doodle]: http://www.g20.org/images/logo.png "undefined"
+[doodle-story]: http://www.g20.org/
+>>>>>>> 8e4d5d69ca5945c67b25d0b01cfc59a31d53497e
 
 **使用本项目之前，请先阅读此 [README](README.md) 及下方的许可协议**
 
@@ -67,7 +72,7 @@
 >>>>>>> .merge_file_qpbueI
 
 * **其他平台**请将 [hosts][github-hosts] 全部内容复制到`/etc/hosts`中并保存。
-> 附：[各平台 hosts 位置](http://www.wikiwand.com/zh/Hosts%E6%96%87%E4%BB%B6#/.E6.96.87.E4.BB.B6.E4.BD.8D.E7.BD.AE.E5.8F.8A.E9.BB.98.E8.AE.A4.E5.86.85.E5.AE.B9)
+> 附：[各平台 hosts 位置](https://github.com/racaljk/hosts/wiki/%E5%90%84%E5%B9%B3%E5%8F%B0-hosts-%E6%96%87%E4%BB%B6%E4%BD%8D%E7%BD%AE)
 
 <<<<<<< .merge_file_VjBqSA
 将 [hosts](https://raw.githubusercontent.com/racaljk/hosts/master/hosts) 全部内容复制到上述文件内并保存

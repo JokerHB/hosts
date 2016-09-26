@@ -15,5 +15,8 @@ tools/WinConsole/*.hpp eol=crlf
 =======
 
 # Denote all files that are truly binary and should not be modified.
+<<<<<<< HEAD
 *.bat binary
 >>>>>>> .merge_file_PICSHi
+=======
+>>>>>>> 8e4d5d69ca5945c67b25d0b01cfc59a31d53497e
