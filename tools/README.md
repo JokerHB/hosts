@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_iiHDDW
 <<<<<<< .merge_file_gfUpdL
 =======
 **除脚本外，其他工具已迁移至  [HostsTools](https://github.com/HostsTools)**
@@ -52,15 +53,30 @@ Linux | 脚本
 
 ### [Windows](https://github.com/HostsTools/Windows)
 - Windows 平台的终端工具（C++ 编写）
+=======
+**除脚本外，其他工具已迁移至  [HostsTools](https://github.com/HostsTools)（不含 Hozz）**
 
-### [Haskell-Console](https://github.com/HostsTools/Haskell-Console)
-- 跨平台的终端工具(Haskell编写)
+## 简介
 
-### [OSX](https://github.com/HostsTools/OSX)
-- Mac 环境下的 hosts 自动部署应用 (适用于 OS X 10.10 或以上, Swift 编写)
+### Windows
+- [终端工具](https://github.com/HostsTools/Windows)（C++ 编写）
+>>>>>>> .merge_file_qgA8bD
 
-### [Android](https://github.com/HostsTools/Android)
-- Android 下的 hosts 更新应用(Java 编写)
+### Mac OS
+- [HostsToolforMac](https://github.com/HostsTools/OSX)
+  - Mac 环境下的 hosts 自动部署应用 (适用于 OS X 10.10 或以上, Swift 编写)
+
+### Android
+- [AndroidGoogleHost](https://github.com/HostsTools/Android)
+
+### 跨平台
+- [HostsTool](https://github.com/HostsTools/cross-platform-Qt)（采用 Qt 框架开发）
+- [Haskell-Console](https://github.com/HostsTools/Haskell-Console)
+  - 终端工具（Haskell 编写）
+- **Hozz**
+  - 拥有一个不错的图形化界面，Javascripts 编写。维护者 [@ppoffice](https://github.com/ppoffice)
+  - **Hozz** [首页](http://ppoffice.github.io/Hozz)
+  - **Hozz** on [Github](https://github.com/ppoffice/Hozz)
 
 ### 工具
 
@@ -69,6 +85,7 @@ Linux | 脚本
   - 贡献者:[@Too-Naive](https://github.com/Too-Naive)
   - Homepage:[HostsTools/Windows](https://github.com/HostsTools/Windows)
 
+<<<<<<< .merge_file_iiHDDW
 - [**lhosts**](http://keving.pythonanywhere.com/hosts_scripts/lhosts)
 <<<<<<< .merge_file_NMxawL
   - *nix 平台自动部署脚本，使用 `./lhosts -h` 命令获取帮助信息。
@@ -87,3 +104,10 @@ Linux | 脚本
   - 跨平台的 hosts 更新工具，Javascripts 编写。维护者 [@ppoffice](https://github.com/ppoffice)
   - **Hozz** [首页](http://ppoffice.github.io/Hozz)
   - **Hozz** on [Github](https://github.com/ppoffice/Hozz)
+=======
+- [**lhosts**](lhosts)
+  - Linux 平台更新 hosts 脚本，请使用 `./lhosts -h` 命令获取帮助信息。
+
+- [**Hindent**](Hindent)
+  - Linux 平台下格式化 hosts 文件的脚本
+>>>>>>> .merge_file_qgA8bD

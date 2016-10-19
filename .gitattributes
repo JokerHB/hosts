@@ -1,6 +1,7 @@
 # Set the default behavior, in case people don't have core.autocrlf set.
 * text=auto
 
+<<<<<<< .merge_file_7TzTxw
 # Declare files that will always have CRLF line endings on checkout.
 <<<<<<< .merge_file_iKMNFN
 *.bat eol=crlf
@@ -20,3 +21,18 @@ tools/WinConsole/*.hpp eol=crlf
 >>>>>>> .merge_file_PICSHi
 =======
 >>>>>>> 8e4d5d69ca5945c67b25d0b01cfc59a31d53497e
+=======
+# hosts file always be normalized on checkin.
+hosts text
+
+# Always be normalized to LF line endings on checkin and converted files
+# to native line endings on checkout.
+*.md text
+*.yml text
+*.sh text
+Hindent text
+lhosts text
+
+# Don't modify binary files.
+*.zip binary
+>>>>>>> .merge_file_OFU3ry

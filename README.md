@@ -9,6 +9,7 @@
 =======
 [![doodle]][doodle-story]
 
+<<<<<<< .merge_file_zjxhzS
 <<<<<<< HEAD
 [doodle]: http://p2.cri.cn/M00/65/09/CqgNOleXGt-AcXnFAAAAAAAAAAA942.980x250.jpg "undefined"
 [doodle-story]: http://2016.cctv.com/
@@ -17,25 +18,30 @@
 [doodle]: http://www.g20.org/images/logo.png "undefined"
 [doodle-story]: http://www.g20.org/
 >>>>>>> 8e4d5d69ca5945c67b25d0b01cfc59a31d53497e
+=======
+[doodle]: https://www.google.com/logos/doodles/2016/googles-18th-birthday-5661535679545344-hp2x.gif "Google 18岁啦"
+[doodle-story]: https://www.google.com.hk/search?q=Google
+>>>>>>> .merge_file_bDOTSA
 
 **使用本项目之前，请先阅读此 [README](README.md) 及下方的许可协议**
 
-**请务必注意,如果正确修改hosts后还是无法使用Google,在求助前请首先尝试通过https进行访问，如[https://www.google.com/](https://www.google.com/)**
+**注意: Google 等网站请通过 https 方式访问，如** https://www.google.com/ncr
 
-|       [聊天室][chat-room]       |    [hosts 格式检测][travis-status]    |  [镜像hosts][mirror_of_hosts]  |  [常见问题解答][faq]  |
+|      [聊天室][chat-room]       |    [hosts 格式检测][travis-status]    |  [镜像hosts][mirror_of_hosts]  |  [常见问题解答][faq] |
 | :----------------------------: | :-----------------------------------: |  :---------------------------: |  :-----------------: |
-|  [![chat-metadata]][chat-room] |  [![travis-metadata]][travis-status]  |   [![coding.net]][coding-link]  |  [![faq_icon]][faq] | 
+|  [![chat-metadata]][chat-room] |  [![travis-metadata]][travis-status]  |  [![coding.net]][coding-link]  |  [![faq-icon]][faq]  |
 
-[chat-metadata]: https://badges.gitter.im/racaljk/hosts.svg "Join the chat at https://gitter.im/racaljk/hosts"
+[chat-metadata]: https://github.com/racaljk/hosts/releases/download/img-bak/gitter-metadata.png "Join the chat"
 [chat-room]: https://gitter.im/racaljk/hosts?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge "Gitter chat room"
 [travis-metadata]: https://travis-ci.org/racaljk/hosts.svg "Travis CI Metadata"
 [travis-status]: https://travis-ci.org/racaljk/hosts "Travis CI Status"
-[coding.net]: https://i.imgur.com/JDpN8Bd.png
+[coding.net]: https://github.com/racaljk/hosts/releases/download/img-bak/coding-icon.png
 [coding-link]: https://coding.net/u/scaffrey/p/hosts/git "Coding"
 [mirror_of_hosts]: https://coding.net/u/scaffrey/p/hosts/git/raw/master/hosts
-[faq_icon]: http://www.easyicon.net/api/resizeApi.php?id=1190784&size=64
-[faq]: https://github.com/racaljk/hosts/wiki/%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E8%A7%A3%E7%AD%94
+[faq-icon]: http://www.easyicon.net/api/resizeApi.php?id=1190784&size=48
+[faq]: https://github.com/racaljk/hosts/wiki/The-hosts-FAQ
 
+<<<<<<< .merge_file_zjxhzS
 <<<<<<< .merge_file_VjBqSA
 <<<<<<< .merge_file_GWMaCG
 
@@ -50,8 +56,12 @@
 ## 如何更新 hosts？
 **推荐**使用项目内 [Host Tools](tools) 来**自动地 备份/更新** hosts。
 >>>>>>> .merge_file_qpbueI
+=======
+## 更新 hosts
+#### 推荐使用项目内的 [应用/工具](tools) 来自动备份/更新 hosts 文件
+>>>>>>> .merge_file_bDOTSA
 
-* **Windows** 平台:
+* **Windows**
    1. 用文本编辑器（如 [Notepad++](https://notepad-plus-plus.org/)）打开：`
   %SystemRoot%\System32\drivers\etc\hosts`
   > ![](https://i.imgur.com/BwW2cft.jpg)
@@ -72,7 +82,7 @@
 >>>>>>> .merge_file_qpbueI
 
 * **其他平台**请将 [hosts][github-hosts] 全部内容复制到`/etc/hosts`中并保存。
-> 附：[各平台 hosts 位置](https://github.com/racaljk/hosts/wiki/%E5%90%84%E5%B9%B3%E5%8F%B0-hosts-%E6%96%87%E4%BB%B6%E4%BD%8D%E7%BD%AE)
+> 附：[各平台 hosts 位置](https://github.com/racaljk/hosts/wiki/各平台-hosts-文件位置)
 
 <<<<<<< .merge_file_VjBqSA
 将 [hosts](https://raw.githubusercontent.com/racaljk/hosts/master/hosts) 全部内容复制到上述文件内并保存
@@ -115,9 +125,7 @@
 **注意**： 若更新后，hosts 没有立即生效，请重置网络：
 >>>>>>> .merge_file_qpbueI
 
-   - 在系统设置内开关网络
-   - 启用禁用飞行模式
-   - 重启系统
+- 在系统设置内开关网络，或启用禁用飞行模式
 
 ## 更多
 - [关于中国的互联网](https://github.com/racaljk/hosts/wiki/关于中国的互联网)
